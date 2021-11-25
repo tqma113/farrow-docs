@@ -2,7 +2,7 @@
 
 Thanks for that you are interested in contributing to Farrow Doc website.
 
-## Developing
+## Local Development
 
 To develop locally:
 
@@ -39,6 +39,16 @@ To develop locally:
    ```zsh
    yarn start
    ```
+
+## Internationalization
+
+Now we only just support `en`(default) and `zh-cn`. So if you want to do translation to `zh-ch`, you can
+
+   ```zsh
+   yarn run start -- --locale zh-cn
+   ```
+
+and edit the translation document in `i18n/zh-cn`.
 
 ## Building
 
