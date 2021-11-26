@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Farrow',
   tagline: 'Type-safe asymptotic TypeScript full-stack framework',
-  url: 'https://farrow-js.github.io',
-  baseUrl: '/farrow-docs/',
+  url: 'https://farrow-js.github.io/farrow-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -55,16 +55,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'quick-start',
-            position: 'right',
-            label: 'Quick Start',
-          },
           {to: '/docs/tutorial', label: 'Tutorial', position: 'right'},
           {to: '/docs/guide', label: 'Guide', position: 'right'},
           {to: '/docs/api', label: 'API', position: 'right'},
-          {to: '/docs/design', label: 'Design Philosophy', position: 'right'},
+          {to: '/docs/philosophy', label: 'Philosophy', position: 'right'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             type: 'localeDropdown',
@@ -83,10 +77,6 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Quick Start',
-                to: '/docs/quick-start',
-              },
               {
                 label: 'Tutorial',
                 to: '/docs/tutorial',

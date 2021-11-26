@@ -1,0 +1,76 @@
+---
+slug: /tutorial
+title: Getting Started
+authors: [tqma113]
+tags: []
+sidebar_position: 0
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+Welcome to the Farrow documentation!
+
+If you have questions about anything related to Farrow, you're always welcome to ask our community on [GitHub Discussions](https://github.com/farrow-js/farrow/discussions).
+
+#### System Requirements
+
+* [Node.js 14.18.1](https://nodejs.org) or later
+* MacOS, Windows (including WSL), and Linux are supported
+
+## Setup
+
+We recommend creating a new Farrow app using `create-farrow-app`, which sets up everything automatically for you. To create a project, run:
+
+<Tabs groupId="package-tool">
+<TabItem value="npm" label="npm">
+
+```bash
+npm init farrow-app farrow-project
+```
+
+</TabItem>
+<TabItem value="yarn" label="Yarn" default>
+
+```bash
+yarn create farrow-app farrow-project
+```
+
+</TabItem>
+</Tabs>
+
+Select a template.
+
+```
+? Select a template:
+❯ farrow-only
+  farrow-vite-react
+  farrow-next-react
+```
+
+After the initialization is complete, follow the instructions to start the development server.
+
+<Tabs groupId="package-tool">
+<TabItem value="npm" label="npm">
+
+```bash
+cd farrow-project
+npm install
+npm run dev
+```
+
+</TabItem>
+<TabItem value="yarn" label="Yarn" default>
+
+```bash
+cd farrow-project
+yarn
+yarn dev
+```
+
+</TabItem>
+</Tabs>
+
+Open your browser and navigate to http://localhost:3000/.
+
+For more information on how to use `create-farrow-app`, you can review the `create-farrow-app` documentation.
